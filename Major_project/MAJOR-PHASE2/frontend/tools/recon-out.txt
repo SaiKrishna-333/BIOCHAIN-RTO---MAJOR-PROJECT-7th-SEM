@@ -1,0 +1,207 @@
+
+
+================ DEALER  url=http://localhost:5173/dealer ================
+
+--- dealer default ---
+TABS: ["ACTIONS","VERIFY VEHICLE"]
+HEADINGS: ["Dealer Dashboard","Dealer Dashboard","Choose Action","My Requests"]
+BUTTONS: ["Dashboard","Documents","Profile & ID Card","LOGOUT","NOTIFICATIONS","ACTIONS","VERIFY VEHICLE","UPDATE DEALER DETAILS","REGISTER NEW VEHICLE","INVOICE","INVOICE","INVOICE"]
+FIELDS: []
+
+--- dealer tab[ACTIONS] ---
+TABS: ["ACTIONS","VERIFY VEHICLE"]
+HEADINGS: ["Dealer Dashboard","Dealer Dashboard","Choose Action","My Requests"]
+BUTTONS: ["Dashboard","Documents","Profile & ID Card","LOGOUT","NOTIFICATIONS","ACTIONS","VERIFY VEHICLE","UPDATE DEALER DETAILS","REGISTER NEW VEHICLE","INVOICE","INVOICE","INVOICE"]
+FIELDS: []
+
+--- dealer tab[VERIFY VEHICLE] ---
+TABS: ["ACTIONS","VERIFY VEHICLE"]
+HEADINGS: ["Dealer Dashboard","Dealer Dashboard","Vehicle Verification","My Requests"]
+BUTTONS: ["Dashboard","Documents","Profile & ID Card","LOGOUT","NOTIFICATIONS","ACTIONS","VERIFY VEHICLE","VERIFY VEHICLE","INVOICE","INVOICE","INVOICE"]
+FIELDS: [{"n":"","t":"text","p":"Enter vehicle registration number","a":""}]
+
+
+================ RTO  url=http://localhost:5173/rto ================
+
+--- rto default ---
+TABS: ["TRANSFER REQUESTS","INHERITANCE TRANSFERS","THEFT REPORTS","CHALLANS","INTER-STATE","VEHICLE DOCUMENTS","ACCIDENT UPLOADS"]
+HEADINGS: ["RTO Administrative Dashboard","Administrative Dashboard","Pending Transfer Requests"]
+BUTTONS: ["Dashboard","Accident Uploads","Search","Analytics","Fraud Cases","Transfers","Documents","Profile & ID Card","LOGOUT","NOTIFICATIONS","TRANSFER REQUESTS","INHERITANCE TRANSFERS","THEFT REPORTS","CHALLANS","INTER-STATE","VEHICLE DOCUMENTS","ACCIDENT UPLOADS","RC CERTIFICATE","RC CERTIFICATE","APPROVE","REJECT","RC CERTIFICATE","RC CERTIFICATE"]
+FIELDS: []
+
+--- rto tab[TRANSFER REQUESTS] ---
+TABS: ["TRANSFER REQUESTS","INHERITANCE TRANSFERS","THEFT REPORTS","CHALLANS","INTER-STATE","VEHICLE DOCUMENTS","ACCIDENT UPLOADS"]
+HEADINGS: ["RTO Administrative Dashboard","Administrative Dashboard","Pending Transfer Requests"]
+BUTTONS: ["Dashboard","Accident Uploads","Search","Analytics","Fraud Cases","Transfers","Documents","Profile & ID Card","LOGOUT","NOTIFICATIONS","TRANSFER REQUESTS","INHERITANCE TRANSFERS","THEFT REPORTS","CHALLANS","INTER-STATE","VEHICLE DOCUMENTS","ACCIDENT UPLOADS","RC CERTIFICATE","RC CERTIFICATE","APPROVE","REJECT","RC CERTIFICATE","RC CERTIFICATE"]
+FIELDS: []
+
+--- rto tab[INHERITANCE TRANSFERS] ---
+TABS: ["TRANSFER REQUESTS","INHERITANCE TRANSFERS","THEFT REPORTS","CHALLANS","INTER-STATE","VEHICLE DOCUMENTS","ACCIDENT UPLOADS"]
+HEADINGS: ["RTO Administrative Dashboard","Administrative Dashboard","Inheritance Transfer Requests"]
+BUTTONS: ["Dashboard","Accident Uploads","Search","Analytics","Fraud Cases","Transfers","Documents","Profile & ID Card","LOGOUT","NOTIFICATIONS","TRANSFER REQUESTS","INHERITANCE TRANSFERS","THEFT REPORTS","CHALLANS","INTER-STATE","VEHICLE DOCUMENTS","ACCIDENT UPLOADS","RC CERTIFICATE"]
+FIELDS: []
+
+--- rto tab[THEFT REPORTS] ---
+TABS: ["TRANSFER REQUESTS","INHERITANCE TRANSFERS","THEFT REPORTS","CHALLANS","INTER-STATE","VEHICLE DOCUMENTS","ACCIDENT UPLOADS"]
+HEADINGS: ["RTO Administrative Dashboard","Administrative Dashboard","Active Theft Reports"]
+BUTTONS: ["Dashboard","Accident Uploads","Search","Analytics","Fraud Cases","Transfers","Documents","Profile & ID Card","LOGOUT","NOTIFICATIONS","TRANSFER REQUESTS","INHERITANCE TRANSFERS","THEFT REPORTS","CHALLANS","INTER-STATE","VEHICLE DOCUMENTS","ACCIDENT UPLOADS","RC CERTIFICATE"]
+FIELDS: []
+
+--- rto tab[CHALLANS] ---
+TABS: ["TRANSFER REQUESTS","INHERITANCE TRANSFERS","THEFT REPORTS","CHALLANS","INTER-STATE","VEHICLE DOCUMENTS","ACCIDENT UPLOADS"]
+HEADINGS: ["RTO Administrative Dashboard","Administrative Dashboard","Traffic Challan Management","My Issued Challans"]
+BUTTONS: ["Dashboard","Accident Uploads","Search","Analytics","Fraud Cases","Transfers","Documents","Profile & ID Card","LOGOUT","NOTIFICATIONS","TRANSFER REQUESTS","INHERITANCE TRANSFERS","THEFT REPORTS","CHALLANS","INTER-STATE","VEHICLE DOCUMENTS","ACCIDENT UPLOADS","+ CREATE NEW CHALLAN"]
+FIELDS: []
+
+--- rto tab[INTER-STATE] ---
+TABS: ["TRANSFER REQUESTS","INHERITANCE TRANSFERS","THEFT REPORTS","CHALLANS","INTER-STATE","VEHICLE DOCUMENTS","ACCIDENT UPLOADS"]
+HEADINGS: ["RTO Administrative Dashboard","Administrative Dashboard","Inter-State Transfer Approvals"]
+BUTTONS: ["Dashboard","Accident Uploads","Search","Analytics","Fraud Cases","Transfers","Documents","Profile & ID Card","LOGOUT","NOTIFICATIONS","TRANSFER REQUESTS","INHERITANCE TRANSFERS","THEFT REPORTS","CHALLANS","INTER-STATE","VEHICLE DOCUMENTS","ACCIDENT UPLOADS"]
+FIELDS: []
+
+--- rto tab[VEHICLE DOCUMENTS] ---
+TABS: ["TRANSFER REQUESTS","INHERITANCE TRANSFERS","THEFT REPORTS","CHALLANS","INTER-STATE","VEHICLE DOCUMENTS","ACCIDENT UPLOADS"]
+HEADINGS: ["RTO Administrative Dashboard","Administrative Dashboard","Vehicle Documents"]
+BUTTONS: ["Dashboard","Accident Uploads","Search","Analytics","Fraud Cases","Transfers","Documents","Profile & ID Card","LOGOUT","NOTIFICATIONS","TRANSFER REQUESTS","INHERITANCE TRANSFERS","THEFT REPORTS","CHALLANS","INTER-STATE","VEHICLE DOCUMENTS","ACCIDENT UPLOADS","UPLOAD DOCUMENT"]
+FIELDS: [{"n":"","t":"","p":"","a":""},{"n":"","t":"file","p":"","a":""},{"n":"","t":"","p":"","a":""},{"n":"","t":"date","p":"","a":""}]
+
+--- rto tab[ACCIDENT UPLOADS] ---
+TABS: ["TRANSFER REQUESTS","INHERITANCE TRANSFERS","THEFT REPORTS","CHALLANS","INTER-STATE","VEHICLE DOCUMENTS","ACCIDENT UPLOADS"]
+HEADINGS: ["RTO Administrative Dashboard","Administrative Dashboard","Accident Evidence Review"]
+BUTTONS: ["Dashboard","Accident Uploads","Search","Analytics","Fraud Cases","Transfers","Documents","Profile & ID Card","LOGOUT","NOTIFICATIONS","TRANSFER REQUESTS","INHERITANCE TRANSFERS","THEFT REPORTS","CHALLANS","INTER-STATE","VEHICLE DOCUMENTS","ACCIDENT UPLOADS","WAITING FOR REVIEW","VERIFIED","DISPUTED","ALL"]
+FIELDS: []
+
+
+================ POLICE  url=http://localhost:5173/police ================
+
+--- police default ---
+TABS: ["QUICK VERIFY","DETAILED VERIFY","PERSON VERIFY","PRIVACY VERIFY","THEFT REPORTS","TRAFFIC CHALLANS","ACCIDENT UPLOADS","PROFILE"]
+HEADINGS: ["Police Verification Dashboard","Real-time Vehicle Verification"]
+BUTTONS: ["Dashboard","Accident Uploads","Search","Analytics","Fraud Cases","Documents","Profile & ID Card","LOGOUT","NOTIFICATIONS","QUICK VERIFY","DETAILED VERIFY","PERSON VERIFY","PRIVACY VERIFY","THEFT REPORTS","TRAFFIC CHALLANS","ACCIDENT UPLOADS","PROFILE","QUICK VERIFY"]
+FIELDS: [{"n":"","t":"text","p":"Enter vehicle registration number","a":""}]
+
+--- police tab[QUICK VERIFY] ---
+TABS: ["QUICK VERIFY","DETAILED VERIFY","PERSON VERIFY","PRIVACY VERIFY","THEFT REPORTS","TRAFFIC CHALLANS","ACCIDENT UPLOADS","PROFILE"]
+HEADINGS: ["Police Verification Dashboard","Real-time Vehicle Verification"]
+BUTTONS: ["Dashboard","Accident Uploads","Search","Analytics","Fraud Cases","Documents","Profile & ID Card","LOGOUT","NOTIFICATIONS","QUICK VERIFY","DETAILED VERIFY","PERSON VERIFY","PRIVACY VERIFY","THEFT REPORTS","TRAFFIC CHALLANS","ACCIDENT UPLOADS","PROFILE","QUICK VERIFY"]
+FIELDS: [{"n":"","t":"text","p":"Enter vehicle registration number","a":""}]
+
+--- police tab[DETAILED VERIFY] ---
+TABS: ["QUICK VERIFY","DETAILED VERIFY","PERSON VERIFY","PRIVACY VERIFY","THEFT REPORTS","TRAFFIC CHALLANS","ACCIDENT UPLOADS","PROFILE"]
+HEADINGS: ["Police Verification Dashboard","Real-time Vehicle Verification"]
+BUTTONS: ["Dashboard","Accident Uploads","Search","Analytics","Fraud Cases","Documents","Profile & ID Card","LOGOUT","NOTIFICATIONS","QUICK VERIFY","DETAILED VERIFY","PERSON VERIFY","PRIVACY VERIFY","THEFT REPORTS","TRAFFIC CHALLANS","ACCIDENT UPLOADS","PROFILE","DETAILED VERIFY"]
+FIELDS: [{"n":"","t":"text","p":"Enter vehicle registration number","a":""}]
+
+--- police tab[PERSON VERIFY] ---
+TABS: ["QUICK VERIFY","DETAILED VERIFY","PERSON VERIFY","PRIVACY VERIFY","THEFT REPORTS","TRAFFIC CHALLANS","ACCIDENT UPLOADS","PROFILE"]
+HEADINGS: ["Police Verification Dashboard","Real-time Vehicle Verification"]
+BUTTONS: ["Dashboard","Accident Uploads","Search","Analytics","Fraud Cases","Documents","Profile & ID Card","LOGOUT","NOTIFICATIONS","QUICK VERIFY","DETAILED VERIFY","PERSON VERIFY","PRIVACY VERIFY","THEFT REPORTS","TRAFFIC CHALLANS","ACCIDENT UPLOADS","PROFILE","VERIFY PERSON"]
+FIELDS: [{"n":"","t":"text","p":"Enter Aadhaar or Driving License number","a":""}]
+
+--- police tab[PRIVACY VERIFY] ---
+TABS: ["QUICK VERIFY","DETAILED VERIFY","PERSON VERIFY","PRIVACY VERIFY","THEFT REPORTS","TRAFFIC CHALLANS","ACCIDENT UPLOADS","PROFILE"]
+HEADINGS: ["Police Verification Dashboard","Real-time Vehicle Verification","Privacy-Preserving Verification"]
+BUTTONS: ["Dashboard","Accident Uploads","Search","Analytics","Fraud Cases","Documents","Profile & ID Card","LOGOUT","NOTIFICATIONS","QUICK VERIFY","DETAILED VERIFY","PERSON VERIFY","PRIVACY VERIFY","THEFT REPORTS","TRAFFIC CHALLANS","ACCIDENT UPLOADS","PROFILE","VERIFY (PRIVACY MODE)"]
+FIELDS: [{"n":"","t":"text","p":"KA01AB1234","a":""}]
+
+--- police tab[THEFT REPORTS] ---
+TABS: ["QUICK VERIFY","DETAILED VERIFY","PERSON VERIFY","PRIVACY VERIFY","THEFT REPORTS","TRAFFIC CHALLANS","ACCIDENT UPLOADS","PROFILE"]
+HEADINGS: ["Police Verification Dashboard","Real-time Vehicle Verification","Theft Reports - Mark as Recovered"]
+BUTTONS: ["Dashboard","Accident Uploads","Search","Analytics","Fraud Cases","Documents","Profile & ID Card","LOGOUT","NOTIFICATIONS","QUICK VERIFY","DETAILED VERIFY","PERSON VERIFY","PRIVACY VERIFY","THEFT REPORTS","TRAFFIC CHALLANS","ACCIDENT UPLOADS","PROFILE"]
+FIELDS: []
+
+--- police tab[TRAFFIC CHALLANS] ---
+TABS: ["QUICK VERIFY","DETAILED VERIFY","PERSON VERIFY","PRIVACY VERIFY","THEFT REPORTS","TRAFFIC CHALLANS","ACCIDENT UPLOADS","PROFILE"]
+HEADINGS: ["Police Verification Dashboard","Real-time Vehicle Verification","Traffic Challan Management","My Issued Challans"]
+BUTTONS: ["Dashboard","Accident Uploads","Search","Analytics","Fraud Cases","Documents","Profile & ID Card","LOGOUT","NOTIFICATIONS","QUICK VERIFY","DETAILED VERIFY","PERSON VERIFY","PRIVACY VERIFY","THEFT REPORTS","TRAFFIC CHALLANS","ACCIDENT UPLOADS","PROFILE","+ CREATE NEW CHALLAN"]
+FIELDS: []
+
+--- police tab[ACCIDENT UPLOADS] ---
+TABS: ["QUICK VERIFY","DETAILED VERIFY","PERSON VERIFY","PRIVACY VERIFY","THEFT REPORTS","TRAFFIC CHALLANS","ACCIDENT UPLOADS","PROFILE"]
+HEADINGS: ["Police Verification Dashboard","Real-time Vehicle Verification","Accident Evidence Review"]
+BUTTONS: ["Dashboard","Accident Uploads","Search","Analytics","Fraud Cases","Documents","Profile & ID Card","LOGOUT","NOTIFICATIONS","QUICK VERIFY","DETAILED VERIFY","PERSON VERIFY","PRIVACY VERIFY","THEFT REPORTS","TRAFFIC CHALLANS","ACCIDENT UPLOADS","PROFILE","WAITING FOR REVIEW","VERIFIED","DISPUTED","ALL"]
+FIELDS: []
+
+--- police tab[PROFILE] ---
+TABS: ["QUICK VERIFY","DETAILED VERIFY","PERSON VERIFY","PRIVACY VERIFY","THEFT REPORTS","TRAFFIC CHALLANS","ACCIDENT UPLOADS","PROFILE"]
+HEADINGS: ["Police Verification Dashboard","Real-time Vehicle Verification","My Profile"]
+BUTTONS: ["Dashboard","Accident Uploads","Search","Analytics","Fraud Cases","Documents","Profile & ID Card","LOGOUT","NOTIFICATIONS","QUICK VERIFY","DETAILED VERIFY","PERSON VERIFY","PRIVACY VERIFY","THEFT REPORTS","TRAFFIC CHALLANS","ACCIDENT UPLOADS","PROFILE","SAVE PROFILE"]
+FIELDS: [{"n":"","t":"text","p":"","a":""},{"n":"","t":"email","p":"","a":""},{"n":"","t":"tel","p":"+91 9876543210","a":""},{"n":"","t":"","p":"Enter your full address","a":""},{"n":"","t":"text","p":"XXXX-XXXX-XXXX","a":""},{"n":"","t":"text","p":"DL Number","a":""},{"n":"","t":"text","p":"Enter your badge number","a":""}]
+
+
+================ WORKSHOP  url=http://localhost:5173/workshop ================
+
+--- workshop default ---
+TABS: []
+HEADINGS: ["Workshop Dashboard","Company Details","Vehicles of Maruti Suzuki"]
+BUTTONS: ["My Vehicles","Incoming Requests","Digital ID Card","Transfers","LOGOUT","NOTIFICATIONS","SAVE COMPANY DETAILS","SERVICE HISTORY","SERVICE HISTORY"]
+FIELDS: [{"n":"","t":"","p":"e.g. Sai Automobiles","a":""},{"n":"","t":"","p":"e.g. Maruti Suzuki","a":""},{"n":"","t":"","p":"","a":""},{"n":"","t":"","p":"","a":""},{"n":"","t":"","p":"","a":""},{"n":"","t":"","p":"","a":""}]
+
+
+================ OWNER  url=http://localhost:5173/owner ================
+
+--- owner default ---
+TABS: ["MY VEHICLES","VEHICLE REPORTS","RESALE OFFERS","REPORT THEFT","REPORT ACCIDENT","INHERITANCE TRANSFER","INTER-STATE TRANSFER","MY INVOICES","PENDING CHALLANS","PROFILE"]
+HEADINGS: ["Owner Dashboard","Owner Dashboard","My Registered Vehicles"]
+BUTTONS: ["My Vehicles","Vehicle Reports","Report Accident","Resale Offers","Transfers","Documents","Profile & ID Card","LOGOUT","NOTIFICATIONS\n1","MY VEHICLES","VEHICLE REPORTS","RESALE OFFERS","REPORT THEFT","REPORT ACCIDENT","INHERITANCE TRANSFER","INTER-STATE TRANSFER","MY INVOICES","PENDING CHALLANS","PROFILE","BLOCKCHAIN","RC CARD","SERVICE HISTORY","SELL","OWNERS"]
+FIELDS: []
+
+--- owner tab[MY VEHICLES] ---
+TABS: ["MY VEHICLES","VEHICLE REPORTS","RESALE OFFERS","REPORT THEFT","REPORT ACCIDENT","INHERITANCE TRANSFER","INTER-STATE TRANSFER","MY INVOICES","PENDING CHALLANS","PROFILE"]
+HEADINGS: ["Owner Dashboard","Owner Dashboard","My Registered Vehicles"]
+BUTTONS: ["My Vehicles","Vehicle Reports","Report Accident","Resale Offers","Transfers","Documents","Profile & ID Card","LOGOUT","NOTIFICATIONS\n1","MY VEHICLES","VEHICLE REPORTS","RESALE OFFERS","REPORT THEFT","REPORT ACCIDENT","INHERITANCE TRANSFER","INTER-STATE TRANSFER","MY INVOICES","PENDING CHALLANS","PROFILE","BLOCKCHAIN","RC CARD","SERVICE HISTORY","SELL","OWNERS"]
+FIELDS: []
+
+--- owner tab[VEHICLE REPORTS] ---
+TABS: ["MY VEHICLES","VEHICLE REPORTS","RESALE OFFERS","REPORT THEFT","REPORT ACCIDENT","INHERITANCE TRANSFER","INTER-STATE TRANSFER","MY INVOICES","PENDING CHALLANS","PROFILE"]
+HEADINGS: ["Owner Dashboard","Owner Dashboard","Vehicle Intelligence Reports"]
+BUTTONS: ["My Vehicles","Vehicle Reports","Report Accident","Resale Offers","Transfers","Documents","Profile & ID Card","LOGOUT","NOTIFICATIONS\n1","MY VEHICLES","VEHICLE REPORTS","RESALE OFFERS","REPORT THEFT","REPORT ACCIDENT","INHERITANCE TRANSFER","INTER-STATE TRANSFER","MY INVOICES","PENDING CHALLANS","PROFILE","REQUEST WORKSHOP REPORT","FULL HISTORY"]
+FIELDS: [{"n":"","t":"checkbox","p":"","a":""},{"n":"","t":"checkbox","p":"","a":""},{"n":"","t":"checkbox","p":"","a":""},{"n":"","t":"checkbox","p":"","a":""},{"n":"","t":"","p":"Message to the workshop (e.g. selling soon - need full history)","a":""}]
+
+--- owner tab[RESALE OFFERS] ---
+TABS: ["MY VEHICLES","VEHICLE REPORTS","RESALE OFFERS","REPORT THEFT","REPORT ACCIDENT","INHERITANCE TRANSFER","INTER-STATE TRANSFER","MY INVOICES","PENDING CHALLANS","PROFILE"]
+HEADINGS: ["Owner Dashboard","Owner Dashboard","Offers You Have Sent","Incoming Vehicle Purchase Offers"]
+BUTTONS: ["My Vehicles","Vehicle Reports","Report Accident","Resale Offers","Transfers","Documents","Profile & ID Card","LOGOUT","NOTIFICATIONS\n1","MY VEHICLES","VEHICLE REPORTS","RESALE OFFERS","REPORT THEFT","REPORT ACCIDENT","INHERITANCE TRANSFER","INTER-STATE TRANSFER","MY INVOICES","PENDING CHALLANS","PROFILE"]
+FIELDS: []
+
+--- owner tab[REPORT THEFT] ---
+TABS: ["MY VEHICLES","VEHICLE REPORTS","RESALE OFFERS","REPORT THEFT","REPORT ACCIDENT","INHERITANCE TRANSFER","INTER-STATE TRANSFER","MY INVOICES","PENDING CHALLANS","PROFILE"]
+HEADINGS: ["Owner Dashboard","Owner Dashboard","Report Vehicle Theft"]
+BUTTONS: ["My Vehicles","Vehicle Reports","Report Accident","Resale Offers","Transfers","Documents","Profile & ID Card","LOGOUT","NOTIFICATIONS\n1","MY VEHICLES","VEHICLE REPORTS","RESALE OFFERS","REPORT THEFT","REPORT ACCIDENT","INHERITANCE TRANSFER","INTER-STATE TRANSFER","MY INVOICES","PENDING CHALLANS","PROFILE","REPORT THEFT"]
+FIELDS: [{"n":"vehicleId","t":"","p":"","a":""},{"n":"policeStation","t":"text","p":"","a":""},{"n":"firNumber","t":"text","p":"","a":""},{"n":"incidentDate","t":"date","p":"","a":""},{"n":"incidentLocation","t":"text","p":"","a":""},{"n":"description","t":"","p":"","a":""}]
+
+--- owner tab[REPORT ACCIDENT] ---
+TABS: ["MY VEHICLES","VEHICLE REPORTS","RESALE OFFERS","REPORT THEFT","REPORT ACCIDENT","INHERITANCE TRANSFER","INTER-STATE TRANSFER","MY INVOICES","PENDING CHALLANS","PROFILE"]
+HEADINGS: ["Owner Dashboard","Owner Dashboard","Report an Accident with Evidence"]
+BUTTONS: ["My Vehicles","Vehicle Reports","Report Accident","Resale Offers","Transfers","Documents","Profile & ID Card","LOGOUT","NOTIFICATIONS\n1","MY VEHICLES","VEHICLE REPORTS","RESALE OFFERS","REPORT THEFT","REPORT ACCIDENT","INHERITANCE TRANSFER","INTER-STATE TRANSFER","MY INVOICES","PENDING CHALLANS","PROFILE","UPLOAD ACCIDENT EVIDENCE"]
+FIELDS: [{"n":"","t":"","p":"","a":""},{"n":"","t":"date","p":"","a":""},{"n":"","t":"","p":"","a":""},{"n":"","t":"","p":"e.g. Junction of Road No 5, Banjara Hills","a":""},{"n":"","t":"","p":"","a":""},{"n":"","t":"","p":"Optional","a":""},{"n":"","t":"","p":"Describe the collision in your own words. This statement cannot be changed after upload.","a":""},{"n":"","t":"","p":"TS07AB1234","a":""},{"n":"","t":"","p":"Optional","a":""},{"n":"","t":"","p":"Optional","a":""},{"n":"","t":"","p":"Policy number, if known","a":""},{"n":"","t":"","p":"Optional","a":""},{"n":"","t":"file","p":"","a":""}]
+
+--- owner tab[INHERITANCE TRANSFER] ---
+TABS: ["MY VEHICLES","VEHICLE REPORTS","RESALE OFFERS","REPORT THEFT","REPORT ACCIDENT","INHERITANCE TRANSFER","INTER-STATE TRANSFER","MY INVOICES","PENDING CHALLANS","PROFILE"]
+HEADINGS: ["Owner Dashboard","Owner Dashboard","Initiate Inheritance Transfer","Upload Required Documents"]
+BUTTONS: ["My Vehicles","Vehicle Reports","Report Accident","Resale Offers","Transfers","Documents","Profile & ID Card","LOGOUT","NOTIFICATIONS\n1","MY VEHICLES","VEHICLE REPORTS","RESALE OFFERS","REPORT THEFT","REPORT ACCIDENT","INHERITANCE TRANSFER","INTER-STATE TRANSFER","MY INVOICES","PENDING CHALLANS","PROFILE","SUBMIT INHERITANCE REQUEST"]
+FIELDS: [{"n":"vehicleRegNumber","t":"text","p":"KA01AB1234","a":""},{"n":"deceasedOwnerId","t":"text","p":"Enter deceased owner's full name","a":""},{"n":"deathCertificateNumber","t":"text","p":"DC-2024-123456","a":""},{"n":"relationshipToDeceased","t":"","p":"","a":""},{"n":"successionCertificateNumber","t":"text","p":"SC-2024-789012","a":""},{"n":"courtOrderNumber","t":"text","p":"CO-2024-345678","a":""},{"n":"deathCertificateDoc","t":"file","p":"","a":""},{"n":"successionCertificateDoc","t":"file","p":"","a":""},{"n":"courtOrderDoc","t":"file","p":"","a":""},{"n":"relationshipProofDoc","t":"file","p":"","a":""}]
+
+--- owner tab[INTER-STATE TRANSFER] ---
+TABS: ["MY VEHICLES","VEHICLE REPORTS","RESALE OFFERS","REPORT THEFT","REPORT ACCIDENT","INHERITANCE TRANSFER","INTER-STATE TRANSFER","MY INVOICES","PENDING CHALLANS","PROFILE"]
+HEADINGS: ["Owner Dashboard","Owner Dashboard","Inter-State Vehicle Transfer"]
+BUTTONS: ["My Vehicles","Vehicle Reports","Report Accident","Resale Offers","Transfers","Documents","Profile & ID Card","LOGOUT","NOTIFICATIONS\n1","MY VEHICLES","VEHICLE REPORTS","RESALE OFFERS","REPORT THEFT","REPORT ACCIDENT","INHERITANCE TRANSFER","INTER-STATE TRANSFER","MY INVOICES","PENDING CHALLANS","PROFILE","REQUEST INTER-STATE TRANSFER"]
+FIELDS: [{"n":"","t":"","p":"","a":""},{"n":"","t":"text","p":"Select a vehicle first","a":""},{"n":"","t":"","p":"","a":""},{"n":"","t":"text","p":"Enter new address","a":""}]
+
+--- owner tab[MY INVOICES] ---
+TABS: ["MY VEHICLES","VEHICLE REPORTS","RESALE OFFERS","REPORT THEFT","REPORT ACCIDENT","INHERITANCE TRANSFER","INTER-STATE TRANSFER","MY INVOICES","PENDING CHALLANS","PROFILE"]
+HEADINGS: ["Owner Dashboard","Owner Dashboard","My Invoices"]
+BUTTONS: ["My Vehicles","Vehicle Reports","Report Accident","Resale Offers","Transfers","Documents","Profile & ID Card","LOGOUT","NOTIFICATIONS\n1","MY VEHICLES","VEHICLE REPORTS","RESALE OFFERS","REPORT THEFT","REPORT ACCIDENT","INHERITANCE TRANSFER","INTER-STATE TRANSFER","MY INVOICES","PENDING CHALLANS","PROFILE","VIEW INVOICE","VIEW INVOICE"]
+FIELDS: []
+
+--- owner tab[PENDING CHALLANS] ---
+TABS: ["MY VEHICLES","VEHICLE REPORTS","RESALE OFFERS","REPORT THEFT","REPORT ACCIDENT","INHERITANCE TRANSFER","INTER-STATE TRANSFER","MY INVOICES","PENDING CHALLANS","PROFILE"]
+HEADINGS: ["Owner Dashboard","Owner Dashboard","Pending Traffic Challans","No Pending Challans"]
+BUTTONS: ["My Vehicles","Vehicle Reports","Report Accident","Resale Offers","Transfers","Documents","Profile & ID Card","LOGOUT","NOTIFICATIONS\n1","MY VEHICLES","VEHICLE REPORTS","RESALE OFFERS","REPORT THEFT","REPORT ACCIDENT","INHERITANCE TRANSFER","INTER-STATE TRANSFER","MY INVOICES","PENDING CHALLANS","PROFILE"]
+FIELDS: []
+
+--- owner tab[PROFILE] ---
+TABS: ["MY VEHICLES","VEHICLE REPORTS","RESALE OFFERS","REPORT THEFT","REPORT ACCIDENT","INHERITANCE TRANSFER","INTER-STATE TRANSFER","MY INVOICES","PENDING CHALLANS","PROFILE"]
+HEADINGS: ["Owner Dashboard","Owner Dashboard","My Profile"]
+BUTTONS: ["My Vehicles","Vehicle Reports","Report Accident","Resale Offers","Transfers","Documents","Profile & ID Card","LOGOUT","NOTIFICATIONS\n1","MY VEHICLES","VEHICLE REPORTS","RESALE OFFERS","REPORT THEFT","REPORT ACCIDENT","INHERITANCE TRANSFER","INTER-STATE TRANSFER","MY INVOICES","PENDING CHALLANS","PROFILE","EDIT PROFILE"]
+FIELDS: [{"n":"name","t":"text","p":"","a":""},{"n":"email","t":"email","p":"","a":""},{"n":"phone","t":"tel","p":"+91 9876543210","a":""},{"n":"address","t":"","p":"Enter your full address","a":""},{"n":"aadhaarNumber","t":"text","p":"XXXX-XXXX-XXXX","a":""},{"n":"dlNumber","t":"text","p":"DL Number","a":""}]

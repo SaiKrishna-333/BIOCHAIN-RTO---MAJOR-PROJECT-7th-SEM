@@ -1,0 +1,64 @@
+[17:35:25] SCENE 1: Landing page ΓÇö live registry counters
+[17:35:27]   ok: Landing page ΓÇö live registry counters
+[17:35:27] SCENE 2: Citizen A registration with biometric enrollment
+[17:35:42]   ok: Citizen A registration with biometric enrollment
+[17:35:42] SCENE 3: Sign in and issue / verify the Digital ID Card
+[17:35:47]   ok: Sign in and issue / verify the Digital ID Card
+[17:35:47] SCENE 4: Dealer registers V1 (petrol Dzire) to Citizen A
+[17:36:40]   ok: Dealer registers V1 (petrol Dzire) to Citizen A
+[17:36:40] SCENE 5: Dealer registers V2 (electric Baleno EV) to Citizen A
+[17:37:22]   ok: Dealer registers V2 (electric Baleno EV) to Citizen A
+[17:37:22] SCENE 6: RTO approves V1 and V2 and issues their registration numbers
+[17:37:30]   ok: RTO approves V1 and V2 and issues their registration numbers
+[17:37:30] SCENE 7: Citizen A views My Vehicles, opens the V1 on-chain tx on Polygon Amoy, then the RC card
+[17:37:57]   ok: Citizen A views My Vehicles, opens the V1 on-chain tx on Polygon Amoy, then the RC card
+[17:37:57] SCENE 8: Police issues a challan on V1; Citizen A pays it via the demo gateway
+[17:38:25]   ok: Police issues a challan on V1; Citizen A pays it via the demo gateway
+[17:38:25] SCENE 9: Workshop records V1 service, parts provenance and damage passport
+[17:38:51]   ok: Workshop records V1 service, parts provenance and damage passport
+[17:38:51] SCENE 10: Workshop creates the V2 EV battery passport and appends a health event
+[17:38:57]   ok: Workshop creates the V2 EV battery passport and appends a health event
+[17:38:57] SCENE 11: Citizen A uploads V1 accident evidence for officer review
+[17:39:13]   ok: Citizen A uploads V1 accident evidence for officer review
+[17:39:14] SCENE 12: Police officer reviews and verifies the accident evidence
+[17:39:27]   ok: Police officer reviews and verifies the accident evidence
+[17:39:27] SCENE 13: Citizen A tries to list V1 - pending challan blocks the sale; owner clears it, then resale succeeds
+[17:40:40]   ok: Citizen A tries to list V1 - pending challan blocks the sale; owner clears it, then resale succeeds
+[17:40:40] SCENE 14: Buyer B reviews the intel and accepts & pays for V1
+[17:41:24]   ok: Buyer B reviews the intel and accepts & pays for V1
+[17:41:24] SCENE 15: Multi-party approval checklist: every mandatory party approves
+[17:41:59]   ok: Multi-party approval checklist: every mandatory party approves
+[17:41:59] SCENE 16: RTO finalizes the V1 transfer; Buyer B receives it with history intact
+[17:42:31]   ok: RTO finalizes the V1 transfer; Buyer B receives it with history intact
+[17:42:31] SCENE 17: Intra-state transfer: B sells V1 to C; C accepts; RTO finalizes
+[17:42:50]   !! FAIL (Intra-state transfer: B sells V1 to C; C accepts; RTO finalizes): locator.click: Timeout 8000ms exceeded. [at C:\Users\Sai Krishna S\Desktop\Majormanvitha with Features\Major_project\MAJOR-PHASE2\frontend\tools\demo.mjs:731:71]
+[17:42:50] SCENE 18: Inter-state transfer: C moves V1 KA->TN; source NOC; destination re-registers
+[17:43:17]   !! FAIL (Inter-state transfer: C moves V1 KA->TN; source NOC; destination re-registers): locator.selectOption: Timeout 8000ms exceeded. [at C:\Users\Sai Krishna S\Desktop\Majormanvitha with Features\Major_project\MAJOR-PHASE2\frontend\tools\demo.mjs:759:50]
+[17:43:17] SCENE 19: Smart Migration Orchestrator: fails pre-check, resolves, two-state NOC, reconciles
+[17:44:24]   !! FAIL (Smart Migration Orchestrator: fails pre-check, resolves, two-state NOC, reconciles): locator.click: Timeout 8000ms exceeded. [at clickBtn (C:\Users\Sai Krishna S\Desktop\Majormanvitha with Features\Major_project\MAJOR-PHASE2\frontend\tools\demo.mjs:167:25)]
+[17:44:24] SCENE 20: Theft: Buyer B reports V3 stolen; police verification shows the flag
+[17:44:48]   ok: Theft: Buyer B reports V3 stolen; police verification shows the flag
+[17:44:49] SCENE 21: Inheritance: C claims V4 from deceased owner B; RTO verifies and approves
+[17:45:10]   ok: Inheritance: C claims V4 from deceased owner B; RTO verifies and approves
+[17:45:10] SCENE 22: Fraud Casebook: open a new case, update status, add a note
+[17:45:44]   ok: Fraud Casebook: open a new case, update status, add a note
+[17:45:44] SCENE 23: Transaction anomaly scan: run and review an alert
+[17:45:47]   ok: Transaction anomaly scan: run and review an alert
+[17:45:47] SCENE 24: Identity cloning scan: the V1 / SHADOW duplicate-chassis conflict
+[17:45:47]   ok: Identity cloning scan: the V1 / SHADOW duplicate-chassis conflict
+[17:45:47] SCENE 25: Analytics dashboard and registry search for V1
+[17:45:50]   ok: Analytics dashboard and registry search for V1
+[17:45:50] SCENE 26: Feature 9: 3D Damage & Repair - one accident, honest assessment, catalogue estimate, verification trail
+[17:46:07]   ok: Feature 9: 3D Damage & Repair - one accident, honest assessment, catalogue estimate, verification trail
+[17:46:07] SCENE 27: Feature 10: Lifecycle Forensics - replay, compare states, trace the flagged conflict, generate the report
+[17:46:24]   ok: Feature 10: Lifecycle Forensics - replay, compare states, trace the flagged conflict, generate the report
+[17:46:24] SCENE 28: Walkthrough complete ΓÇö signing out to the public home
+[17:46:34]   ok: Walkthrough complete ΓÇö signing out to the public home
+[17:46:34] === console/network issues captured: 8 ===
+[17:46:34]   - http 400: http://localhost:5000/api/vehicle-intelligence/vehicle-history/6ae4d5a7c565fe34cfdd2957/service-records
+[17:46:34]   - console: Failed to load resource: the server responded with a status of 400 (Bad Request)
+[17:46:34]   - http 500: http://localhost:5000/api/transfer-approvals/6ae4d698c565fe34cfdd2bcb/steps/document-verification/decision
+[17:46:34]   - console: Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+[17:46:34]   - http 400: http://localhost:5000/api/requests/6ae4d698c565fe34cfdd2bcb/approve
+[17:46:34]   - http 400: http://localhost:5000/api/migration/6ae4d75ec565fe34cfdd2ec1/submit-application
+[17:46:34] Done. Brief 3.5s tail so the recording closes cleanly on the public home.

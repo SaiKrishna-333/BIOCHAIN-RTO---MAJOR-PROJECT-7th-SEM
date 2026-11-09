@@ -1,0 +1,33 @@
+[17:20:57] SCENE 1: Landing page ΓÇö live registry counters
+[17:21:02]   ok: Landing page ΓÇö live registry counters
+[17:21:02] SCENE 2: Citizen registration with biometric enrollment
+[17:21:13]   ok: Citizen registration with biometric enrollment
+[17:21:14] SCENE 3: Sign in and issue the Digital ID Card
+[17:21:24]   ok: Sign in and issue the Digital ID Card
+[17:21:25] SCENE 4: Dealer registers a new vehicle to the citizen
+[17:22:25]   ok: Dealer registers a new vehicle to the citizen
+[17:22:26] SCENE 5: RTO approves the registration and issues the number
+[17:22:32]   ok: RTO approves the registration and issues the number
+[17:22:33] SCENE 6: Citizen receives the vehicle and verifies it on-chain
+[17:23:39]   ok: Citizen receives the vehicle and verifies it on-chain
+[17:23:40] SCENE 7: RTO issues a traffic challan on the vehicle
+[17:24:16]   ok: RTO issues a traffic challan on the vehicle
+[17:24:16] SCENE 8: Citizen pays the challan through the demo gateway
+[17:24:56]   ok: Citizen pays the challan through the demo gateway
+[17:24:56] SCENE 9: Citizen lists the vehicle for resale to another owner
+[17:25:39]   ok: Citizen lists the vehicle for resale to another owner
+[17:25:39] SCENE 10: Buyer reviews the intelligence report and accepts the offer
+[17:27:00]   ok: Buyer reviews the intelligence report and accepts the offer
+[17:27:01] SCENE 11: Owner reports the vehicle as stolen
+[17:27:37]   ok: Owner reports the vehicle as stolen
+[17:27:37] SCENE 12: Police verify the vehicle and see the theft flag
+[17:28:14]   ok: Police verify the vehicle and see the theft flag
+[17:28:15] SCENE 13: Workshop console ΓÇö brand-locked vehicles and service history
+[17:28:50]   ok: Workshop console ΓÇö brand-locked vehicles and service history
+[17:28:51] SCENE 14: Analytics, fraud and registry-search consoles
+[17:29:33]   ok: Analytics, fraud and registry-search consoles
+[17:29:33] SCENE 15: Inter-state and inheritance approval queues
+[17:29:40]   ok: Inter-state and inheritance approval queues
+[17:29:41] SCENE 16: Walkthrough complete ΓÇö signing out
+[17:30:12]   ok: Walkthrough complete ΓÇö signing out
+[17:30:13] === console/network issues captured: 0 ===

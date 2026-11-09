@@ -1,0 +1,33 @@
+[17:36:33] SCENE 1: Landing page ΓÇö live registry counters
+[17:36:37]   ok: Landing page ΓÇö live registry counters
+[17:36:37] SCENE 2: Citizen registration with biometric enrollment
+[17:36:48]   ok: Citizen registration with biometric enrollment
+[17:36:49] SCENE 3: Sign in and issue the Digital ID Card
+[17:36:59]   ok: Sign in and issue the Digital ID Card
+[17:37:00] SCENE 4: Dealer registers a new vehicle to the citizen
+[17:38:00]   ok: Dealer registers a new vehicle to the citizen
+[17:38:01] SCENE 5: RTO approves the registration and issues the number
+[17:38:07]   ok: RTO approves the registration and issues the number
+[17:38:07] SCENE 6: Citizen receives the vehicle and verifies it on-chain
+[17:39:14]   ok: Citizen receives the vehicle and verifies it on-chain
+[17:39:14] SCENE 7: RTO issues a traffic challan on the vehicle
+[17:39:51]   ok: RTO issues a traffic challan on the vehicle
+[17:39:51] SCENE 8: Citizen pays the challan through the demo gateway
+[17:40:30]   ok: Citizen pays the challan through the demo gateway
+[17:40:31] SCENE 9: Authorized workshop uploads the verified service history
+[17:41:10]   ok: Authorized workshop uploads the verified service history
+[17:41:11] SCENE 10: Citizen lists the vehicle for resale - reports attached for the buyer
+[17:42:25]   ok: Citizen lists the vehicle for resale - reports attached for the buyer
+[17:42:26] SCENE 11: Buyer reviews the intelligence report and accepts the offer
+[17:43:47]   ok: Buyer reviews the intelligence report and accepts the offer
+[17:43:47] SCENE 12: Owner reports the vehicle as stolen
+[17:44:24]   ok: Owner reports the vehicle as stolen
+[17:44:24] SCENE 13: Police verify the vehicle and see the theft flag
+[17:45:01]   ok: Police verify the vehicle and see the theft flag
+[17:45:01] SCENE 14: Analytics, fraud and registry-search consoles
+[17:45:45]   ok: Analytics, fraud and registry-search consoles
+[17:45:45] SCENE 15: Inter-state and inheritance approval queues
+[17:45:54]   ok: Inter-state and inheritance approval queues
+[17:45:54] SCENE 16: Walkthrough complete ΓÇö signing out
+[17:46:26]   ok: Walkthrough complete ΓÇö signing out
+[17:46:26] === console/network issues captured: 0 ===

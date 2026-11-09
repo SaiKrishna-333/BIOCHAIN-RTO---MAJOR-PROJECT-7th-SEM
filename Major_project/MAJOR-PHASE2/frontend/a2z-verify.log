@@ -1,0 +1,55 @@
+[09:40:09] SCENE 1: Landing page ΓÇö live registry counters
+[09:40:13]   ok: Landing page ΓÇö live registry counters
+[09:40:13] SCENE 2: Citizen A registration with biometric enrollment
+[09:40:24]   ok: Citizen A registration with biometric enrollment
+[09:40:24] SCENE 3: Sign in and issue / verify the Digital ID Card
+[09:40:34]   ok: Sign in and issue / verify the Digital ID Card
+[09:40:34] SCENE 4: Dealer registers V1 (petrol Dzire) to Citizen A
+[09:41:34]   ok: Dealer registers V1 (petrol Dzire) to Citizen A
+[09:41:34] SCENE 5: Dealer registers V2 (electric Baleno EV) to Citizen A
+[09:42:02]   ok: Dealer registers V2 (electric Baleno EV) to Citizen A
+[09:42:02] SCENE 6: RTO approves V1 and V2 and issues their registration numbers
+[09:42:11]   ok: RTO approves V1 and V2 and issues their registration numbers
+[09:42:11] SCENE 7: Citizen A views My Vehicles and opens the V1 RC card
+[09:42:50]   ok: Citizen A views My Vehicles and opens the V1 RC card
+[09:42:50] SCENE 8: RTO issues a challan on V1; Citizen A pays it via the demo gateway
+[09:43:42]   ok: RTO issues a challan on V1; Citizen A pays it via the demo gateway
+[09:43:43] SCENE 9: Workshop records V1 service, parts provenance and damage passport
+[09:44:39]   ok: Workshop records V1 service, parts provenance and damage passport
+[09:44:39] SCENE 10: Workshop creates the V2 EV battery passport and appends a health event
+[09:44:54]   ok: Workshop creates the V2 EV battery passport and appends a health event
+[09:44:54] SCENE 11: Citizen A uploads V1 accident evidence for officer review
+[09:45:36]   ok: Citizen A uploads V1 accident evidence for officer review
+[09:45:36] SCENE 12: Police officer reviews and verifies the accident evidence
+[09:46:15]   ok: Police officer reviews and verifies the accident evidence
+[09:46:16] SCENE 13: Citizen A lists V1 for resale to Buyer B (intel attached)
+[09:47:35]   ok: Citizen A lists V1 for resale to Buyer B (intel attached)
+[09:47:35] SCENE 14: Buyer B reviews the intel and accepts & pays for V1
+[09:49:00]   ok: Buyer B reviews the intel and accepts & pays for V1
+[09:49:01] SCENE 15: Multi-party approval checklist: every mandatory party approves
+[09:50:33]   ok: Multi-party approval checklist: every mandatory party approves
+[09:50:33] SCENE 16: RTO finalizes the V1 transfer; Buyer B receives it with history intact
+[09:51:51]   ok: RTO finalizes the V1 transfer; Buyer B receives it with history intact
+[09:51:52] SCENE 17: Intra-state transfer: B sells V1 to C; C accepts; RTO finalizes
+[09:54:15]   ok: Intra-state transfer: B sells V1 to C; C accepts; RTO finalizes
+[09:54:15] SCENE 18: Inter-state transfer: C moves V1 KA->TN; source NOC; destination re-registers
+[09:55:20]   ok: Inter-state transfer: C moves V1 KA->TN; source NOC; destination re-registers
+[09:55:20] SCENE 19: Theft: Buyer B reports V3 stolen; police verification shows the flag
+[09:56:08]   ok: Theft: Buyer B reports V3 stolen; police verification shows the flag
+[09:56:08] SCENE 20: Inheritance: C claims V4 from deceased owner B; RTO verifies and approves
+[09:57:08]   ok: Inheritance: C claims V4 from deceased owner B; RTO verifies and approves
+[09:57:09] SCENE 21: Fraud Casebook: open a new case, update status, add a note
+[09:58:32]   ok: Fraud Casebook: open a new case, update status, add a note
+[09:58:33] SCENE 22: Transaction anomaly scan: run and review an alert
+[09:58:47]   ok: Transaction anomaly scan: run and review an alert
+[09:58:47] SCENE 23: Identity cloning scan: the V1 / SHADOW duplicate-chassis conflict
+[09:59:00]   ok: Identity cloning scan: the V1 / SHADOW duplicate-chassis conflict
+[09:59:00] SCENE 24: Analytics dashboard and registry search for V1
+[09:59:08]   ok: Analytics dashboard and registry search for V1
+[09:59:08] SCENE 25: Feature 9: 3D Damage & Repair - one accident, honest assessment, catalogue estimate, verification trail
+[10:00:21]   ok: Feature 9: 3D Damage & Repair - one accident, honest assessment, catalogue estimate, verification trail
+[10:00:21] SCENE 26: Feature 10: Lifecycle Forensics - replay, compare states, trace the flagged conflict, generate the report
+[10:01:29]   ok: Feature 10: Lifecycle Forensics - replay, compare states, trace the flagged conflict, generate the report
+[10:01:29] SCENE 27: Walkthrough complete ΓÇö signing out to the public home
+[10:02:02]   ok: Walkthrough complete ΓÇö signing out to the public home
+[10:02:03] === console/network issues captured: 0 ===

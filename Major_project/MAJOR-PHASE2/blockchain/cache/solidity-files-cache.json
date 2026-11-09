@@ -1,0 +1,77 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\Sai Krishna S\\Desktop\\DESKTOP FILES\\Major Project RTO new edit\\blockchain\\contracts\\VehicleRegistry.sol": {
+      "lastModificationDate": 1773919882279,
+      "contentHash": "29ebda4f251a51a3bf3ed00951d136a4",
+      "sourceName": "contracts/VehicleRegistry.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "VehicleRegistry"
+      ]
+    },
+    "C:\\Users\\Sai Krishna S\\Desktop\\DESKTOP FILES\\Majormanvitha\\Major_project\\MAJOR-PHASE2\\blockchain\\contracts\\VehicleRegistry.sol": {
+      "lastModificationDate": 1789828558202,
+      "contentHash": "29ebda4f251a51a3bf3ed00951d136a4",
+      "sourceName": "contracts/VehicleRegistry.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "VehicleRegistry"
+      ]
+    }
+  }
+}

@@ -1,0 +1,43 @@
+# ------------------------------------------------------------------
+# Dependencies - restored with `npm install` in backend/, frontend/, blockchain/
+# ------------------------------------------------------------------
+node_modules/
+
+# ------------------------------------------------------------------
+# Build output - restored with `npm run build` (frontend) / `npx hardhat compile`
+# ------------------------------------------------------------------
+dist/
+build/
+blockchain/artifacts/
+blockchain/cache/
+
+# ------------------------------------------------------------------
+# Secrets. Copy the matching .env.example and fill in real values.
+# ------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+
+# ------------------------------------------------------------------
+# Runtime data - uploaded evidence, content-addressed document vault,
+# transfer packs. None of it belongs in version control.
+# ------------------------------------------------------------------
+backend/uploads/
+
+# ------------------------------------------------------------------
+# Logs and scratch files
+# ------------------------------------------------------------------
+*.log
+npm-debug.log*
+*.tmp
+*_backup
+*_old
+
+# ------------------------------------------------------------------
+# Editor / OS noise
+# ------------------------------------------------------------------
+.vscode/*
+!.vscode/extensions.json
+.idea/
+Thumbs.db
+.DS_Store

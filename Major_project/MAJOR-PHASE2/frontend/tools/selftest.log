@@ -1,0 +1,33 @@
+[17:10:07] SCENE 1: Landing page ΓÇö live registry counters
+[17:10:11]   ok: Landing page ΓÇö live registry counters
+[17:10:12] SCENE 2: Citizen registration with biometric enrollment
+[17:10:22]   ok: Citizen registration with biometric enrollment
+[17:10:22] SCENE 3: Sign in and open the Digital ID Card
+[17:10:56]   !! FAIL (Sign in and open the Digital ID Card): locator.click: Timeout 30000ms exceeded.
+[17:10:56] SCENE 4: Dealer registers a new vehicle to the citizen
+[17:11:56]   ok: Dealer registers a new vehicle to the citizen
+[17:11:57] SCENE 5: RTO approves the registration and issues the number
+[17:12:03]   ok: RTO approves the registration and issues the number
+[17:12:03] SCENE 6: Citizen receives the vehicle and verifies it on-chain
+[17:13:10]   ok: Citizen receives the vehicle and verifies it on-chain
+[17:13:10] SCENE 7: RTO issues a traffic challan on the vehicle
+[17:13:47]   ok: RTO issues a traffic challan on the vehicle
+[17:13:47] SCENE 8: Citizen pays the challan through the demo gateway
+[17:14:27]   ok: Citizen pays the challan through the demo gateway
+[17:14:27] SCENE 9: Citizen lists the vehicle for resale to another owner
+[17:15:10]   ok: Citizen lists the vehicle for resale to another owner
+[17:15:10] SCENE 10: Buyer reviews the intelligence report and accepts the offer
+[17:16:33]   ok: Buyer reviews the intelligence report and accepts the offer
+[17:16:33] SCENE 11: Owner reports the vehicle as stolen
+[17:17:10]   ok: Owner reports the vehicle as stolen
+[17:17:10] SCENE 12: Police verify the vehicle and see the theft flag
+[17:17:48]   ok: Police verify the vehicle and see the theft flag
+[17:17:48] SCENE 13: Workshop console ΓÇö brand-locked vehicles and service history
+[17:18:24]   ok: Workshop console ΓÇö brand-locked vehicles and service history
+[17:18:25] SCENE 14: Analytics, fraud and registry-search consoles
+[17:19:08]   ok: Analytics, fraud and registry-search consoles
+[17:19:09] SCENE 15: Inter-state and inheritance approval queues
+[17:19:17]   ok: Inter-state and inheritance approval queues
+[17:19:17] SCENE 16: Walkthrough complete ΓÇö signing out
+[17:19:49]   ok: Walkthrough complete ΓÇö signing out
+[17:19:49] === console/network issues captured: 0 ===

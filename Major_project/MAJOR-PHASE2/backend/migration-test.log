@@ -1,0 +1,44 @@
+Smart Migration Orchestrator - end-to-end test
+
+  (previous run artefacts cleared)
+
+  Γ£ô all four accounts logged in
+  Γ£ô found migration vehicle KA45CF1357 (6ae47496ca3160e8847949f6)
+  Γ£ô precheck returns 200
+  Γ£ô police issued a challan to force a blocking issue
+  Γ£ô precheck verdict is 'blocked' with a pending challan (got blocked)
+  Γ£ô challans check reported as blocked with a linked source
+  Γ£ô unavailable data (finance) is 'needs_review', never 'passed'
+  Γ£ô tax estimator produced a non-zero estimate
+  Γ£ô cost output is clearly labelled an estimate
+  Γ£ô migration created
+  Γ£ô migration id format BCM-2026-00001
+  Γ£ô migration starts blocked (precheck_blocked)
+  Γ£ô dependency-ordered stages were built
+  Γ£ô destination stage is locked before the source NOC
+  Γ£ô located the open challan to pay
+  Γ£ô challan paid in full
+  Γ£ô after resolving the challan the pre-check clears (conditional)
+  Γ£ô migration moved to ready_to_apply
+  Γ£ô document uploaded and OCR-analysed
+  Γ£ô document integrity hash preserved
+  Γ£ô Form 28/27 checklist drafted
+  Γ£ô document verification decision recorded (200)
+  Γ£ô application submitted (Application submitted)
+  Γ£ô migration status is submitted
+  Γ£ô a conventional inter-state Request was filed alongside
+  Γ£ô migration passport reference + integrity hash stored
+  Γ£ô destination approval is blocked before a source NOC (dependency enforced)
+  Γ£ô source RTO issued the NOC
+  Γ£ô NOC deadline countdown computed
+  Γ£ô only the source-state officer can issue the NOC
+  Γ£ô destination approved (Destination approved)
+  Γ£ô reconciliation verdict is consistent (consistent)
+  Γ£ô migration reached completed
+  Γ£ô new registration recorded on the migration
+  Γ£ô vehicle re-registered as TN45CF1357
+  Γ£ô auditable event history recorded (7 events)
+  Γ£ô destination RTO can read the migration passport
+
+ALL PASSED - 37 passed, 0 failed
+Note: this test re-registers the migration vehicle; re-seed before a fresh recording.
